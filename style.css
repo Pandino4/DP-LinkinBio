@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+    justify-items: center;
+    font-style: italic;
+    touch-action: pan-y;
+    background-color: rgb(76,181,232);
+}
+
+#section1{
+    margin-top: 4em;
+}
+
+#section2{
+    margin-top: 1em;
+}
+
+button{
+    width: 350px;
+    height: 60px;
+    border: 1px solid rgb(209,234,246);
+    background: transparent;
+    cursor: pointer;
+    border-radius: 27px;
+    margin-top: 1em;
+}
+
+ion-icon{
+    width:40px;
+    height: 40px;
+}
+
+img{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    margin-top: -25px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+p{
+    color: rgb(255,208,225);
+}
+
+button:hover{
+    background: rgb(193,231,245);
+    font-weight: bold;
+}
+
+button:active{
+    transform: scale(0.97);
+}
+
+button, a{
+    user-select: none;
+}
+
+h1{
+    color: rgb(233,220,239);
+    position: relative;
+    bottom: 10px;
+}
+
+h4{
+    color: rgb(251,216,222);
+    position: relative;
+    bottom: 20px;
+}
